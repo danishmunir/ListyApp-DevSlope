@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86133128285BB8A00057839F /* ParallexTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86133127285BB8A00057839F /* ParallexTVCell.swift */; };
+		8613312A285BBA620057839F /* Image+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86133129285BBA620057839F /* Image+Names.swift */; };
 		8672DC8C285264B6003811C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672DC8B285264B6003811C2 /* AppDelegate.swift */; };
 		8672DC8E285264B6003811C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672DC8D285264B6003811C2 /* SceneDelegate.swift */; };
-		8672DC90285264B6003811C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672DC8F285264B6003811C2 /* ViewController.swift */; };
+		8672DC90285264B6003811C2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672DC8F285264B6003811C2 /* ListTableViewController.swift */; };
 		8672DC93285264B6003811C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8672DC91285264B6003811C2 /* Main.storyboard */; };
 		8672DC95285264BB003811C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8672DC94285264BB003811C2 /* Assets.xcassets */; };
 		8672DC98285264BB003811C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8672DC96285264BB003811C2 /* LaunchScreen.storyboard */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86133127285BB8A00057839F /* ParallexTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallexTVCell.swift; sourceTree = "<group>"; };
+		86133129285BBA620057839F /* Image+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Names.swift"; sourceTree = "<group>"; };
 		8672DC88285264B6003811C2 /* ListyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8672DC8B285264B6003811C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8672DC8D285264B6003811C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8672DC8F285264B6003811C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8672DC8F285264B6003811C2 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		8672DC92285264B6003811C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8672DC94285264BB003811C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8672DC97285264BB003811C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86133125285BB8700057839F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86133127285BB8A00057839F /* ParallexTVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86133126285BB8750057839F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8672DC8F285264B6003811C2 /* ListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		8672DC7F285264B6003811C2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +119,15 @@
 		8672DC8A285264B6003811C2 /* ListyApp */ = {
 			isa = PBXGroup;
 			children = (
+				86133126285BB8750057839F /* Controller */,
+				86133125285BB8700057839F /* View */,
 				8672DC8B285264B6003811C2 /* AppDelegate.swift */,
 				8672DC8D285264B6003811C2 /* SceneDelegate.swift */,
-				8672DC8F285264B6003811C2 /* ViewController.swift */,
 				8672DC91285264B6003811C2 /* Main.storyboard */,
 				8672DC94285264BB003811C2 /* Assets.xcassets */,
 				8672DC96285264BB003811C2 /* LaunchScreen.storyboard */,
 				8672DC99285264BB003811C2 /* Info.plist */,
+				86133129285BBA620057839F /* Image+Names.swift */,
 			);
 			path = ListyApp;
 			sourceTree = "<group>";
@@ -258,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8672DC90285264B6003811C2 /* ViewController.swift in Sources */,
+				8672DC90285264B6003811C2 /* ListTableViewController.swift in Sources */,
 				8672DC8C285264B6003811C2 /* AppDelegate.swift in Sources */,
+				86133128285BB8A00057839F /* ParallexTVCell.swift in Sources */,
 				8672DC8E285264B6003811C2 /* SceneDelegate.swift in Sources */,
+				8613312A285BBA620057839F /* Image+Names.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
